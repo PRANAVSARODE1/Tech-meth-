@@ -1,0 +1,22 @@
+{
+  "name": "tech-meth-auth",
+  "version": "1.0.0",
+  "description": "TECH-METH — login and registration with Express + MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "auth"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.0",
+    "mysql2": "^3.22.0"
+  }
+}
