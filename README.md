@@ -4,13 +4,7 @@
 
 ---
 
-## 🚀 Quick Start
 
-### 1. Installation
-Ensure you have [Node.js](https://nodejs.org/) installed.
-```bash
-npm install
-```
 
 ### 2. Run the Project
 ```bash
@@ -20,7 +14,7 @@ The server will start at: **[http://localhost:5000](http://localhost:5000)**
 
 ---
 
-## 🔐 Login & Credentials
+## Login & Credentials
 
 > [!IMPORTANT]
 > This project is currently in **Prototype Mode**. Data is managed via `localStorage`, so logins are simulated.
@@ -39,7 +33,7 @@ If you need to bypass the login for testing, you can navigate to:
 
 ---
 
-## 🛠️ Key Features
+## key Features
 
 ### 1. Student Portal (`/learn.html`)
 - View practicals assigned by your college.
@@ -58,7 +52,7 @@ If you need to bypass the login for testing, you can navigate to:
 
 ---
 
-## 📂 Project Architecture
+## Project Architecture
 
 ### File Structure
 - `server.js`: Express server serving static frontend files.
@@ -79,9 +73,3 @@ Currently, all data is stored in the browser's `localStorage` using the followin
 
 ---
 
-## 📝 Roadmap
-- [x] Frontend Prototype & Simulator
-- [x] Local Storage Data Persistence
-- [ ] Backend MySQL Integration
-- [ ] Real-time Peer-to-Peer Collaboration
-- [ ] Advanced Circuit Validation Logic
